@@ -1,0 +1,53 @@
+Aditya Kumar
+/ne+1 (608) 209-6428 | aditya8132@gmail.com | /♀nednlinkedin.com/in/aditya8132 | Madison, Wisconsin
+Education
+University of Wisconsin-Madison Madison, Wisconsin
+Master of Science in Computer Science Aug 2025 – Dec 2026
+• CGPA: 4.0/4.0
+• Coursework: Machine Learning, Artificial Intelligence, Foundation Models, Big Data Systems, Computer Vision
+Manipal Institute of Technology Manipal, KA, India
+Bachelor of Technology in Computer Science and Engineering Jul 2017 – Aug 2021
+• CGPA: 9.29/10
+• Coursework: Algorithms, Data Structures, Object Oriented Programming, Operating Systems, Computer
+Networks, Distributed Systems, Cloud Computing, Database Systems, Compiler Design
+Experience
+Optum, UnitedHealth Group Bangalore, India
+Senior Software Engineer Apr. 2023 – Aug. 2025
+• Developed an assist-chat widget for on-call agents using React and websockets, which reduced the average call
+time for agents by 25% by providing real-time suggestions relevant to the caller
+• Owned end-to-end development of the backend system with dockerized flask APIs, leveraged LLMs for relevant
+suggestions, supporting RAG QnA and scaled the system to support 1000+ concurrent agents
+• Collaborated with UX/PM to define user experience and halved entity recognition latency during call
+• Architected an event-driven scalable system to generate post-call summaries for agents, eliminating an average of
+35 seconds of manual post-call documentation per call while handing 80K+ API calls for summarizations daily,
+using kafka and serverless functions to ingest high-volume of call data
+• Constructed a smart microservice pipeline to efficiently process 250K documents daily, eliminating stale data in
+RAG QnA service leading to increased accuracy and 20% reduction in advocate response times
+• Led code reviews for team of 4 & optimized CI/CD via github action, boosting deployment frequency by 15%
+Optum, UnitedHealth Group Bangalore, India
+Software Engineer Aug. 2021 – Mar. 2023
+• Engineered a Python-based ML pipeline to reduce unidentified user utterances in chatbots by 60%. Utilized NLP
+and K-means clustering to identify and operationalize previously unserved customer intents
+• Accelerated chatbot response time roughly 40% by implementing a custom streaming strategy in Azure Bot
+Framework, prioritizing time-to-first-token over full-response completion
+• Owned end-to-end lifecyle of a plug-and-play NodeJS chat escalation system used across 3 platforms by 5 clients
+within a month of launch, handling 300K+ daily messages
+• Utilized Messaging queues for asynchronous messages from agent and scaling, Redis for user-context
+management, with APIs for agent availability and conversation management, provisioned via Terraform (IaC)
+• Participated in on-call rotations, resolving 150+ incidents while ensuring 99.9% platform availability
+Organic India, ASHA Groups Remote
+Android Developer Intern Apr. 2020 – May 2020
+• Developed and launched Android e-commerce app on Google Play Store, architecting a scalable, serverless
+backend while using Google Firebase (NoSQL DB, Authentication) and Cloud Functions for notifications
+Technical Skills
+Languages: Python, Java, C, C#, C++, JavaScript, Typescript, HTML, CSS, Bash, SQL
+Frameworks: React, Flask, FastAPI, NodeJS, Express, Android, Spring, Mocha, REST API, gRPC
+Tools: Git, Jenkins, Docker, Terraform, Redis, Queues, Kafka, MongoDB, Kubernetes, Cassandra, Hadoop, Spark
+Conversational AI: OpenAI, Google CCAI, Prompt Engineering, RAG Pipelines, Azure Bot Framework
+Projects
+Canvase — Interactive Wireframing Engine | React, JavaScript, CSS, CRA
+• Architected a React-based wireframing engine using a DOM-centric (div) approach with decoupled state logic to
+support extensible object types. Added support for multi-modal zooming and click-and-drag
+Steervision — Gesture-Controlled Browser Game | JavaScript, PhaserJS, Tensorflow Handpose
+• Programmed web-based JavaScript game using PhaserJS which uses user’s webcam feed to capture hand position
+using Tensorflow Handpose model to control object in game to solve puzzles with varying levels of difficulty
