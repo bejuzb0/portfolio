@@ -45,6 +45,9 @@ Frameworks: React, Flask, FastAPI, NodeJS, Express, Android, Spring, Mocha, REST
 Tools: Git, Jenkins, Docker, Terraform, Redis, Queues, Kafka, MongoDB, Kubernetes, Cassandra, Hadoop, Spark
 Conversational AI: OpenAI, Google CCAI, Prompt Engineering, RAG Pipelines, Azure Bot Framework
 Projects
+SellInSeconds — AI-Powered Campus Marketplace (github.com/bejuzb0/SellinSeconds) | Next.js, Python, FastAPI, Supabase
+• Built a campus marketplace for students to buy, sell, or deliver items, featuring AI-driven conversational search and listing extraction via Anthropic API
+• Implemented proximity-based matching via Google Maps and real-time chat with an escrow-style payment flow
 Canvase — Interactive Wireframing Engine | React, JavaScript, CSS, CRA
 • Architected a React-based wireframing engine using a DOM-centric (div) approach with decoupled state logic to
 support extensible object types. Added support for multi-modal zooming and click-and-drag

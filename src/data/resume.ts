@@ -97,6 +97,31 @@ export const DATA = {
     ],
     projects: [
         {
+            title: "SellInSeconds",
+            href: "https://github.com/bejuzb0/SellinSeconds",
+            dates: "",
+            active: true,
+            description: "Campus marketplace for students to buy, sell, or help deliver items. Features AI-powered conversational search and listing extraction, proximity-based matching via Google Maps, and real-time chat with escrow-style payment flow.",
+            technologies: [
+                "Next.js",
+                "TypeScript",
+                "Tailwind 4",
+                "Python",
+                "FastAPI",
+                "Supabase",
+                "Anthropic API"
+            ],
+            links: [
+                {
+                    type: "Source",
+                    href: "https://github.com/bejuzb0/SellinSeconds",
+                    icon: "github",
+                }
+            ],
+            image: "",
+            video: "",
+        },
+        {
             title: "Canvase",
             href: "",
             dates: "",

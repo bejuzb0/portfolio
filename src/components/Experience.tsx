@@ -9,7 +9,7 @@ export function Experience() {
             <h2 className="text-xl font-bold mb-2">Work Experience</h2>
             <div className="flex flex-col gap-4">
                 {DATA.work.map((work, id) => (
-                    <Card key={id} className="border-none shadow-none bg-transparent">
+                    <Card key={id} className="border-none shadow-none bg-transparent dark:bg-transparent">
                         <CardHeader className="px-0 py-2">
                             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-4">
                                 <CardTitle className="text-lg">
