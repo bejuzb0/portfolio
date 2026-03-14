@@ -11,14 +11,14 @@ export const DATA = {
     avatarUrl: "/portfolio/avatar-min.jpeg",
     skills: [
         "Python", "Java", "C", "C#", "C++", "JavaScript", "TypeScript", "HTML", "CSS", "Bash", "SQL",
-        "React", "Flask", "FastAPI", "NodeJS", "Express", "Android", "Spring", "Mocha",
-        "Git", "Docker", "Terraform", "Redis", "Kafka", "MongoDB", "Kubernetes", "Cassandra", "Hadoop", "Spark",
+        "React", "Flask", "FastAPI", "NodeJS", "Express", "Android", "Spring", "Mocha", "REST API", "gRPC",
+        "Git", "Jenkins", "Docker", "Terraform", "Redis", "Queues", "Kafka", "MongoDB", "Kubernetes", "Cassandra", "Hadoop", "Spark",
         "OpenAI", "Google CCAI", "Prompt Engineering", "RAG Pipelines", "Azure Bot Framework"
     ],
     contact: {
         email: "aditya8132@gmail.com",
         tel: "+16082096428",
-        resumeUrl: "https://drive.google.com/file/d/1l03V0_zgOTi4Zom19C3Mh-bD9sdQSYFB/view?usp=sharing",
+        resumeUrl: "https://drive.google.com/file/d/1AW_jzefphmNlq4nXfnM3YNNo_4kvesAs/view?usp=sharing",
         social: {
             LinkedIn: {
                 name: "LinkedIn",
@@ -38,11 +38,12 @@ export const DATA = {
             start: "Apr 2023",
             end: "Aug 2025",
             description: [
-                "Developed an assist-chat widget for on-call agents using React and websockets, reducing average call time by 25%.",
-                "Owned backend with dockerized Flask APIs leveraging LLMs for RAG QnA (1000+ concurrent agents).",
-                "Architected event-driven Kafka summarization system handling 80K+ daily API calls.",
-                "Built microservice pipeline processing 250K documents daily, reducing advocate response time by 20%.",
-                "Led code reviews and optimized CI/CD."
+                "Developed an assist-chat widget for on-call agents using React and websockets, which reduced the average call time for agents by 25% by providing real-time suggestions relevant to the caller.",
+                "Owned end-to-end development of the backend system with dockerized flask APIs, leveraged LLMs for relevant suggestions, supporting RAG QnA and scaled the system to support 1000+ concurrent agents.",
+                "Collaborated with UX/PM to define user experience and halved entity recognition latency during call.",
+                "Architected an event-driven scalable system to generate post-call summaries for agents, eliminating an average of 35 seconds of manual post-call documentation per call while handing 80K+ API calls for summarizations daily, using kafka and serverless functions to ingest high-volume of call data.",
+                "Constructed a smart microservice pipeline to efficiently process 250K documents daily, eliminating stale data in RAG QnA service leading to increased accuracy and 20% reduction in advocate response times.",
+                "Led code reviews for team of 4 & optimized CI/CD via github action, boosting deployment frequency by 15%."
             ]
         },
         {
@@ -55,10 +56,11 @@ export const DATA = {
             start: "Aug 2021",
             end: "Mar 2023",
             description: [
-                "Engineered Python ML pipeline reducing unidentified user utterances by 60% using NLP and K-means clustering.",
-                "Accelerated chatbot response time by 40% with custom Azure Bot streaming strategy.",
-                "Owned full lifecycle of scalable NodeJS chat escalation system handling 300K+ daily messages using Redis and Terraform.",
-                "Participated in on-call resolving 150+ incidents (99.9% uptime)."
+                "Engineered a Python-based ML pipeline to reduce unidentified user utterances in chatbots by 60%. Utilized NLP and K-means clustering to identify and operationalize previously unserved customer intents.",
+                "Accelerated chatbot response time roughly 40% by implementing a custom streaming strategy in Azure Bot Framework, prioritizing time-to-first-token over full-response completion.",
+                "Owned end-to-end lifecycle of a plug-and-play NodeJS chat escalation system used across 3 platforms by 5 clients within a month of launch, handling 300K+ daily messages.",
+                "Utilized Messaging queues for asynchronous messages from agent and scaling, Redis for user-context management, with APIs for agent availability and conversation management, provisioned via Terraform (IaC).",
+                "Participated in on-call rotations, resolving 150+ incidents while ensuring 99.9% platform availability."
             ]
         },
         {
@@ -101,7 +103,7 @@ export const DATA = {
             href: "https://github.com/bejuzb0/SellinSeconds",
             dates: "",
             active: true,
-            description: "Campus marketplace for students to buy, sell, or help deliver items. Features AI-powered conversational search and listing extraction, proximity-based matching via Google Maps, and real-time chat with escrow-style payment flow.",
+            description: "Built a campus marketplace for students to buy, sell, or deliver items, featuring AI-driven conversational search and listing extraction via Anthropic API. Implemented proximity-based matching via Google Maps and real-time chat with an escrow-style payment flow.",
             technologies: [
                 "Next.js",
                 "TypeScript",
@@ -126,7 +128,7 @@ export const DATA = {
             href: "",
             dates: "",
             active: true,
-            description: "Interactive Wireframing Engine. Architected a React-based wireframing engine using a DOM-centric approach with decoupled state logic to support extensible object types. Added support for multi-modal zooming and click-and-drag.",
+            description: "Architected a React-based wireframing engine using a DOM-centric (div) approach with decoupled state logic to support extensible object types. Added support for multi-modal zooming and click-and-drag.",
             technologies: [
                 "React",
                 "JavaScript",
@@ -142,7 +144,7 @@ export const DATA = {
             href: "",
             dates: "",
             active: true,
-            description: "Gesture-Controlled Browser Game. Programmed web-based JavaScript game using PhaserJS which uses user's webcam feed to capture hand position using Tensorflow Handpose model to control object in game to solve puzzles.",
+            description: "Programmed web-based JavaScript game using PhaserJS which uses user's webcam feed to capture hand position using Tensorflow Handpose model to control object in game to solve puzzles with varying levels of difficulty.",
             technologies: [
                 "JavaScript",
                 "PhaserJS",
