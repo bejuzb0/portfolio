@@ -10,15 +10,15 @@ export const DATA = {
     summary: "Results-driven Software Engineer with extensive experience building scalable full-stack applications and AI-driven systems. M.S. in Computer Science student at UW-Madison. Proven track record of optimizing backend pipelines, enhancing user experience, and delivering robust microservices.",
     avatarUrl: "/portfolio/avatar-min.jpeg",
     skills: [
-        "Python", "Java", "C", "C#", "C++", "JavaScript", "TypeScript", "HTML", "CSS", "Bash", "SQL",
+        "Python", "Java", "C", "C#", "C++", "Go", "JavaScript", "TypeScript", "HTML", "CSS", "Bash", "SQL",
         "React", "Flask", "FastAPI", "NodeJS", "Express", "Android", "Spring", "Mocha", "REST API", "gRPC",
-        "Git", "Jenkins", "Docker", "Terraform", "Redis", "Queues", "Kafka", "MongoDB", "Kubernetes", "Cassandra", "Hadoop", "Spark",
+        "Git", "Jenkins", "Docker", "Terraform", "Redis", "Queues", "Kafka", "MongoDB", "Kubernetes", "Prometheus", "Cassandra", "Hadoop", "Spark",
         "OpenAI", "Google CCAI", "Prompt Engineering", "RAG Pipelines", "Azure Bot Framework"
     ],
     contact: {
         email: "aditya8132@gmail.com",
         tel: "+16082096428",
-        resumeUrl: "https://drive.google.com/file/d/1AW_jzefphmNlq4nXfnM3YNNo_4kvesAs/view?usp=sharing",
+        resumeUrl: "https://drive.google.com/file/d/1neaWmD61bMWlwxnxQWqrHRJw7JON3okl/view?usp=sharing",
         social: {
             LinkedIn: {
                 name: "LinkedIn",
@@ -38,12 +38,11 @@ export const DATA = {
             start: "Apr 2023",
             end: "Aug 2025",
             description: [
-                "Developed an assist-chat widget for on-call agents using React and websockets, which reduced the average call time for agents by 25% by providing real-time suggestions relevant to the caller.",
-                "Owned end-to-end development of the backend system with dockerized flask APIs, leveraged LLMs for relevant suggestions, supporting RAG QnA and scaled the system to support 1000+ concurrent agents.",
-                "Collaborated with UX/PM to define user experience and halved entity recognition latency during call.",
-                "Architected an event-driven scalable system to generate post-call summaries for agents, eliminating an average of 35 seconds of manual post-call documentation per call while handing 80K+ API calls for summarizations daily, using kafka and serverless functions to ingest high-volume of call data.",
-                "Constructed a smart microservice pipeline to efficiently process 250K documents daily, eliminating stale data in RAG QnA service leading to increased accuracy and 20% reduction in advocate response times.",
-                "Led code reviews for team of 4 & optimized CI/CD via github action, boosting deployment frequency by 15%."
+                "Architected an event-driven call summarization system handling 80K+ API requests daily using Kafka, serverless functions, and LLMs, eliminating 35 seconds of manual documentation per call.",
+                "Developed a real-time LLM-powered chat system (Flask, ReactJS, RAG), reducing average call handling time by 25% for 1,000+ agents.",
+                "Optimized entity recognition and interaction flows, reducing latency by 50%.",
+                "Deployed a distributed RAG ingestion pipeline processing 250K documents daily, improving accuracy and cutting resolution time by 20%.",
+                "Optimized CI/CD pipelines (GitHub Actions), increasing deployment frequency by 15%."
             ]
         },
         {
@@ -56,11 +55,10 @@ export const DATA = {
             start: "Aug 2021",
             end: "Mar 2023",
             description: [
-                "Engineered a Python-based ML pipeline to reduce unidentified user utterances in chatbots by 60%. Utilized NLP and K-means clustering to identify and operationalize previously unserved customer intents.",
-                "Accelerated chatbot response time roughly 40% by implementing a custom streaming strategy in Azure Bot Framework, prioritizing time-to-first-token over full-response completion.",
-                "Owned end-to-end lifecycle of a plug-and-play NodeJS chat escalation system used across 3 platforms by 5 clients within a month of launch, handling 300K+ daily messages.",
-                "Utilized Messaging queues for asynchronous messages from agent and scaling, Redis for user-context management, with APIs for agent availability and conversation management, provisioned via Terraform (IaC).",
-                "Participated in on-call rotations, resolving 150+ incidents while ensuring 99.9% platform availability."
+                "Engineered a Python ML pipeline (NLP, K-means) to identify customer intents, reducing unidentified chatbot utterances by 60%.",
+                "Implemented a custom streaming strategy (Azure Bot Framework), accelerating chatbot response time by 40%.",
+                "Launched a NodeJS chat escalation system using microservices (Redis, Message Queues, Terraform), handling 300K+ daily messages.",
+                "Maintained 99.9% platform availability and resolved 150+ production incidents through automated alerting and on-call rotations."
             ]
         },
         {
@@ -152,6 +150,30 @@ export const DATA = {
                 "Handpose"
             ],
             links: [],
+            image: "",
+            video: "",
+        },
+        {
+            title: "Shadowstock",
+            href: "https://github.com/bejuzb0/shadowstock",
+            dates: "",
+            active: true,
+            description: "Engineered a fault-tolerant distributed matching engine using Raft consensus and gRPC. Processes 50K+ orders/sec with <100μs p99 latency and has state consistency verified via chaos engineering.",
+            technologies: [
+                "Go",
+                "gRPC",
+                "Protocol Buffers",
+                "Raft Consensus",
+                "Docker",
+                "Prometheus"
+            ],
+            links: [
+                {
+                    type: "Source",
+                    href: "https://github.com/bejuzb0/shadowstock",
+                    icon: "github",
+                }
+            ],
             image: "",
             video: "",
         }
