@@ -1,13 +1,15 @@
-import { DATA } from "@/data/resume";
-import { Section } from "./ui/section";
+import "./styles/About.css";
+import { SITE } from "../data/portfolio";
 
-export function About() {
-    return (
-        <Section>
-            <h2 className="text-xl font-bold mb-2">About</h2>
-            <p className="text-zinc-500 dark:text-zinc-400 leading-relaxed text-pretty">
-                {DATA.summary}
-            </p>
-        </Section>
-    );
-}
+const About = () => {
+  return (
+    <div className="about-section" id="about">
+      <div className="about-me">
+        <h3 className="title">About Me</h3>
+        <p className="para">{SITE.about}</p>
+      </div>
+    </div>
+  );
+};
+
+export default About;
