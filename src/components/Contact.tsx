@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { MdArrowOutward } from "react-icons/md";
 import "./styles/Contact.css";
 import { EDUCATION_CONTACT, SITE } from "../data/portfolio";
 
@@ -61,15 +61,6 @@ const Contact = () => {
             >
               Résumé (PDF) <MdArrowOutward />
             </a>
-          </div>
-          <div className="contact-box">
-            <h2>
-              Designed and Developed <br /> by{" "}
-              <span>Aditya Kumar</span>
-            </h2>
-            <h5>
-              <MdCopyright /> {new Date().getFullYear()}
-            </h5>
           </div>
         </div>
       </div>

@@ -12,10 +12,10 @@ export const SITE = {
     "Full-stack engineer focused on AI systems, scalable backends, and great UX.",
   landingLead: "M.S. Computer Science · UW–Madison",
   about: `Results-driven software engineer with experience building scalable full-stack applications and AI-driven systems. M.S. in Computer Science at UW–Madison. Proven track record optimizing backend pipelines, shipping microservices, and delivering LLM-powered products in production.`,
-  url: "https://aditya8132.github.io/portfolio",
+  url: "https://bejuzb0.github.io/portfolio",
   location: "Madison, Wisconsin",
   linkedIn: "https://linkedin.com/in/aditya8132",
-  github: "https://github.com/aditya8132",
+  github: "https://github.com/bejuzb0",
   resumeUrl:
     "https://drive.google.com/file/d/1neaWmD61bMWlwxnxQWqrHRJw7JON3okl/view?usp=sharing",
   email: "aditya8132@gmail.com",
