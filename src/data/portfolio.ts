@@ -71,6 +71,15 @@ export type ProjectSlide = {
 
 export const PROJECTS: ProjectSlide[] = [
   {
+    title: "EfficientPIE",
+    category:
+      "Pedestrian crossing intent for AVs — CS766 Computer Vision · UW–Madison",
+    tools:
+      "JAAD benchmark, EfficientPIE (IJCAI 2025) reproduction, demographic & scale analysis, Grad-CAM++, CLIP ViT-B/32 knowledge distillation · PyTorch · Colab",
+    image: "",
+    link: "https://bejuzb0.github.io/EfficientPIE/",
+  },
+  {
     title: "SellInSeconds",
     category: "AI campus marketplace",
     tools:
