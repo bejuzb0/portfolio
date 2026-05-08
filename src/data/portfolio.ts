@@ -38,23 +38,30 @@ export const CAREER: CareerEntry[] = [
       "CGPA 4.0/4.0. Coursework: Machine Learning, AI, Foundation Models, Big Data Systems, Computer Vision.",
   },
   {
+    role: "Incoming Software Engineer Intern, Cortex",
+    org: "Snowflake · Menlo Park, CA",
+    periodLabel: "May–Aug 2026",
+    summary:
+      "Incoming Summer Software Engineer Intern on the Cortex team, focused on AI/ML infrastructure and intelligent data cloud services.",
+  },
+  {
     role: "Senior Software Engineer",
     org: "Optum, UnitedHealth Group · Bangalore",
-    periodLabel: "2023–25",
+    periodLabel: "Apr 2023 – Aug 2025",
     summary:
-      "Real-time LLM assist-chat for 1,000+ agents; event-driven call summarization (80K+ API calls/day); RAG pipelines processing 250K documents/day; Flask/React, Kafka, serverless; CI/CD improvements.",
+      "Event-driven call summarization system (80K+ API requests/day) using Kafka, serverless functions, and LLMs; real-time LLM-powered chat for 1,000+ agents using Flask, React, and RAG; latency reduced 50% via UX + entity recognition optimizations; distributed ingestion for 250K documents/day; improved CI/CD and led code reviews for a team of 4.",
   },
   {
     role: "Software Engineer",
     org: "Optum, UnitedHealth Group · Bangalore",
-    periodLabel: "2021–23",
+    periodLabel: "Aug 2021 – Mar 2023",
     summary:
-      "Python ML/NLP pipelines; Azure Bot Framework streaming; Node.js escalation platform (300K+ msgs/day); Redis, queues, Terraform; 99.9% availability, 150+ incidents resolved.",
+      "Python ML pipeline to operationalize unserved customer intents (60% fewer unidentified utterances); Azure Bot Framework streaming strategy improving time-to-first-token (40% faster); plug-and-play Node.js escalation microservices handling 300K+ daily messages with queues, Redis, and Terraform; 99.9% availability with 150+ production incidents resolved and improved observability/runbooks.",
   },
   {
     role: "Android Developer Intern",
     org: "Organic India, ASHA Groups · Remote",
-    periodLabel: "2020",
+    periodLabel: "Apr–May 2020",
     summary:
       "Shipped Android e-commerce app to Play Store; Firebase backend, auth, and Cloud Functions.",
   },
@@ -71,11 +78,28 @@ export type ProjectSlide = {
 
 export const PROJECTS: ProjectSlide[] = [
   {
-    title: "EfficientPIE",
-    category:
-      "Pedestrian crossing intent for AVs — CS766 Computer Vision · UW–Madison",
+    title: "Shadow Exchange",
+    category: "Fault-tolerant distributed matching engine",
     tools:
-      "JAAD benchmark, EfficientPIE (IJCAI 2025) reproduction, demographic & scale analysis, Grad-CAM++, CLIP ViT-B/32 knowledge distillation · PyTorch · Colab",
+      "Go, gRPC, Protocol Buffers, Raft, Docker, Prometheus · 50K+ orders/sec, <100µs p99 latency, chaos testing for state consistency",
+    image: "",
+    link: "https://github.com/bejuzb0/shadowstock",
+  },
+  {
+    title: "TurboQuant Compression on CLIP Multimodal Embeddings",
+    category:
+      "Embedding compression for multimodal retrieval — CS 639 Foundation Models · UW–Madison",
+    tools:
+      "Python, NumPy, FAISS, CLIP, PyTorch · Benchmarked QJL/PolarQuant/TurboQuant vs FAISS-PQ across 1–32 bits on 150K+ image-caption pairs; Recall@1/5/10 for cross- and same-modal retrieval",
+    image: "",
+    link: "https://bejuzb0.github.io/tq-report/",
+  },
+  {
+    title: "Pedestrian Intent Prediction",
+    category:
+      "Pedestrian crossing intent for AVs — CS 766 Computer Vision · UW–Madison",
+    tools:
+      "PyTorch, CLIP, Grad-CAM++, knowledge distillation · Audited EfficientPIE (IJCAI 2025) with spatial ablations + Grad-CAM++; CLIP ViT-B/32 offline distillation to study attention debiasing without added inference latency",
     image: "",
     link: "https://bejuzb0.github.io/EfficientPIE/",
   },
@@ -88,23 +112,10 @@ export const PROJECTS: ProjectSlide[] = [
     link: "https://github.com/bejuzb0/SellinSeconds",
   },
   {
-    title: "Shadowstock",
-    category: "Distributed matching engine",
-    tools: "Go, gRPC, Raft, Docker, Prometheus",
-    image: "",
-    link: "https://github.com/bejuzb0/shadowstock",
-  },
-  {
     title: "Canvase",
     category: "Interactive wireframing engine",
-    tools: "React, JavaScript, CSS",
-    image: "",
-    link: "",
-  },
-  {
-    title: "Steervision",
-    category: "Gesture-controlled browser game",
-    tools: "JavaScript, PhaserJS, TensorFlow Handpose",
+    tools:
+      "React, JavaScript, CSS · DOM-centric (div) objects, decoupled state logic, multi-modal zooming, click-and-drag interactions",
     image: "",
     link: "",
   },
@@ -141,7 +152,7 @@ export const WHAT_I_DO = [
 export const EDUCATION_CONTACT = [
   {
     school: "University of Wisconsin–Madison",
-    detail: "M.S. Computer Science — Aug 2025 – Dec 2026",
+    detail: "M.S. Computer Science — Aug 2025 – May 2027",
   },
   {
     school: "Manipal Institute of Technology",
